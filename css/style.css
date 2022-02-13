@@ -5,11 +5,21 @@ body {
   /* #ff9442 */
 }
 
+.navigation{
+  padding-left : 10rem;
+  padding-top: 1rem;
+}
+.togico{
+  margin-left: 9.5rem;
+  position: relative;
+  top: 2rem;
+  font-size: 1.5rem;
+}
 /* First Page */
 .pagefirst {
   padding-left: 10rem;
   padding-top: 1rem;
-  padding-right: 30rem;
+  padding-right: 30%;
   height: 44rem;
 }
 
@@ -57,14 +67,14 @@ body {
   width: 23rem;
   height: 35rem;
   position: absolute;
-  right: 10rem;
+  right: 10.5%;
   top: 5rem;
   margin-right: 0;
 }
 
 .bordertophoto {
   position: absolute;
-  right: 15rem;
+  right: 15.7%;
   top: 7rem;
   height: 37rem;
   width: 20rem;
@@ -195,7 +205,7 @@ body {
   border-bottom: none;
   border-right: none;
   left: 10rem;
-  top: 50rem;
+  top: 57rem;
 }
 
 .lowerbox {
@@ -207,7 +217,7 @@ body {
   border-top: none;
   border-left: none;
   right: 10rem;
-  top: 70rem;
+  top: 77rem;
 }
 
 .padit {
@@ -274,9 +284,6 @@ body {
 }
 
 /* Fourth Page */
-.fourthpage {
-  height: 51rem;
-}
 
 .myportfolio {
   font-size: 1.3rem;
@@ -293,7 +300,7 @@ body {
 }
 
 .portfolio {
-  margin: 1rem 16rem 0;
+  margin: 2rem 14rem 0;
 }
 
 .recentw {
@@ -325,7 +332,7 @@ body {
   color: white;
   border: 0.2rem solid;
   left: 14rem;
-  top: 144.5rem;
+  top: 152.5rem;
   height: 15rem;
   border-color: #ff9442;
   width: 10rem;
@@ -338,7 +345,7 @@ body {
   color: white;
   border: 0.2rem solid;
   right: 14rem;
-  top: 164.5rem;
+  top: 175.5rem;
   height: 15rem;
   border-color: #ff9442;
   width: 10rem;
@@ -410,20 +417,22 @@ body {
 .sixthpage{
   background-color: #071e48;
   color: white;
-  padding: 4rem 6rem 0.3rem;
+  padding: 4rem 6rem 0.3rem 0;
   margin-top: 2rem;
 }
 .contactme2{
   font-weight: 600;
   font-size: 3rem;
   margin-bottom: 1.5rem;
+  padding-left: 10rem;
 }
 .contacttext{
   line-height: 2rem;
-padding: 0 11rem;
+padding: 0 11rem 0 10rem;
 }
 .texti{
   color: #ff9442;
+  padding-left: 10rem;
 }
 .link{
   color: white;
@@ -435,11 +444,15 @@ padding: 0 11rem;
 }
 .contacticons{
   color: #ff9442;
-  margin: 3rem 1rem;
+  margin: 3rem 2rem 3rem 0;
   font-size: 2rem;
+}
+.groupoficons{
+  padding-left: 10rem;
 }
 .endthisall{
   font-size: 0.8rem;
+  padding-left: 10rem;
 }
 .email:hover{
   color: #56a8f0;
@@ -459,4 +472,121 @@ padding: 0 11rem;
   font-size: 400%;
   font-weight: 800;
   line-height: 6rem;
+}
+
+/* Media Queries */
+@media (max-width : 1300px) {
+.myphoto{
+  right: 5rem;
+  top: 10rem;
+  height: 30rem;
+  width: auto;
+}
+.bordertophoto{
+  right: 8rem;
+  height: 35rem;
+  width: 20rem;
+}
+.lowerbox{
+  width: 40rem;
+}
+.secondpage{
+  padding: 4rem 0;
+}
+.myskills{
+  font-size: 5rem;
+}
+.skilltable{
+  right: 15rem;
+}
+.outer {
+  width: 30rem;
+}
+.upperrow{
+  visibility: hidden;
+}
+.lowerrow{
+  visibility: hidden;
+}
+.testicard{
+  padding: 2rem 1rem;
+}
+.secondsection{
+  padding: 2rem 7rem;
+}
+.contacttext{
+padding: 0 10rem;
+}
+}
+
+@media (max-width:1100px) {
+  .myphoto{
+    position: absolute;
+    right: -8rem;
+    top: 10rem;
+    height: 30rem;
+    width: auto;
+  }
+  .bordertophoto{
+    right: -6rem;
+    height: 35rem;
+    width: 20rem;
+  }
+  .secondpage {
+    height: 33rem;
+  }
+  .myintro{
+    text-align: left;
+    padding-left: 10rem;
+  }
+  .aboutme{
+    text-align: left;
+    padding-left: 10rem;
+  }
+  .myskills{
+    padding-left: 0;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .abouttext{
+    text-align: left;
+    padding: 0 0 0 10rem;
+  }
+  .interests{
+    text-align: left;
+    padding-left: 10rem;
+  }
+  .recentw{
+    text-align: center;
+  }
+  .interesticon{
+    padding-left: 10rem;
+    text-align: left;
+  }
+  .upperbox{
+    visibility: hidden;
+  }
+  .lowerbox{
+    visibility: hidden;
+  }
+  .portfolio{
+    margin: 4rem 5rem 0rem 5rem;
+  }
+  .contribute{
+    padding: 5rem 10rem 1.5rem 10rem;
+  }
+  .clientsays{
+    text-align: center;
+    font-size: 4rem;
+    padding-left: 0;
+  }
+  .secondsection{
+    padding: 2rem 0rem;
+  }
+  .testicard{
+    padding: 1rem 1rem;
+  }
+  .contacttext{
+  padding: 0 5rem 0 10rem;
+  }
 }
