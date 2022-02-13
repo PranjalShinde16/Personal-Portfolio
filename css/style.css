@@ -405,7 +405,7 @@ body {
 
 .names {
   font-weight: 600;
-  margin-right: 12rem;
+  margin-right: 2rem;
 }
 
 .testitext {
@@ -612,7 +612,7 @@ body {
   }
 
   .portfolio {
-    margin: 4rem 5rem 0rem 5rem;
+    margin: 4rem 5rem 0rem 10rem;
   }
 
   .contribute {
@@ -635,5 +635,60 @@ body {
 
   .contacttext {
     padding: 0 5rem 0 10rem;
+  }
+
+  .pagefirst {
+    padding-left: 6rem;
+    padding-right: 20%;
+  }
+
+  .navigation {
+    padding-left: 6rem;
+  }
+
+  .myintro {
+    padding-left: 6rem;
+  }
+
+  .aboutme2 {
+    padding-left: 6rem;
+  }
+
+  .abouttext {
+    padding-left: 6rem;
+  }
+
+  .interests {
+    padding-left: 6rem;
+  }
+
+  .interesticon {
+    padding-left: 6rem;
+  }
+
+  .contribute {
+    width: 120%;
+    padding-left: 6rem;
+  }
+
+  .groupofcard {
+    position: relative;
+    left: 4rem;
+  }
+
+  .sixthpage {
+    width: 120%;
+  }
+
+  .contactme2 {
+    padding-left: 6rem;
+  }
+
+  .contacttext {
+    padding-left: 6rem;
+  }
+
+  .texti {
+    padding-left: 6rem;
   }
 }
