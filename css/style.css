@@ -11,7 +11,7 @@ body {
 }
 
 .togico {
-  margin-left: 9.5rem;
+  margin-left: 6rem;
   position: relative;
   top: 2rem;
   font-size: 1.5rem;
@@ -689,6 +689,14 @@ body {
   }
 
   .texti {
+    padding-left: 6rem;
+  }
+
+  .groupoficons {
+    padding-left: 6rem;
+  }
+
+  .endthisall {
     padding-left: 6rem;
   }
 }
