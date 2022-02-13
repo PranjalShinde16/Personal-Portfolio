@@ -5,16 +5,18 @@ body {
   /* #ff9442 */
 }
 
-.navigation{
-  padding-left : 10rem;
+.navigation {
+  padding-left: 10rem;
   padding-top: 1rem;
 }
-.togico{
+
+.togico {
   margin-left: 9.5rem;
   position: relative;
   top: 2rem;
   font-size: 1.5rem;
 }
+
 /* First Page */
 .pagefirst {
   padding-left: 10rem;
@@ -284,7 +286,6 @@ body {
 }
 
 /* Fourth Page */
-
 .myportfolio {
   font-size: 1.3rem;
   font-weight: 600;
@@ -355,21 +356,24 @@ body {
 
 /* Fifth Page */
 /* First Section */
-.contribute{
+.contribute {
   background-color: #ff9442;
   color: white;
   margin: 3rem 0;
   padding: 5rem 20rem 1.5rem 10rem;
 }
-.wantto{
+
+.wantto {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
-.contritext{
+
+.contritext {
   line-height: 2rem;
 }
-.contribtn{
+
+.contribtn {
   border-radius: 1.5rem;
   color: #ff9442;
   background-color: white;
@@ -381,29 +385,34 @@ body {
 }
 
 /* Second Section */
-.testi{
+.testi {
   font-size: 1.3rem;
   font-weight: 600;
   color: #ff9442;
   margin-bottom: 0.7rem;
   margin-top: 1rem;
 }
-.secondsection{
+
+.secondsection {
   padding: 2rem 13rem 2rem;
   margin-bottom: 2rem;
 }
-.custom{
+
+.custom {
   color: #ff9442;
   text-align: right;
 }
-.names{
+
+.names {
   font-weight: 600;
   margin-right: 12rem;
 }
-.testitext{
+
+.testitext {
   line-height: 2rem;
 }
-.testicard{
+
+.testicard {
   width: 45%;
   text-align: left;
   padding: 2rem 3rem;
@@ -414,61 +423,71 @@ body {
 }
 
 /* Sixth Page - Footer */
-.sixthpage{
+.sixthpage {
   background-color: #071e48;
   color: white;
   padding: 4rem 6rem 0.3rem 0;
   margin-top: 2rem;
 }
-.contactme2{
+
+.contactme2 {
   font-weight: 600;
   font-size: 3rem;
   margin-bottom: 1.5rem;
   padding-left: 10rem;
 }
-.contacttext{
+
+.contacttext {
   line-height: 2rem;
-padding: 0 11rem 0 10rem;
+  padding: 0 11rem 0 10rem;
 }
-.texti{
+
+.texti {
   color: #ff9442;
   padding-left: 10rem;
 }
-.link{
+
+.link {
   color: white;
   text-decoration: none;
 }
-.emailandloc{
+
+.emailandloc {
   margin-top: 2rem;
   margin-bottom: 0.3rem;
 }
-.contacticons{
+
+.contacticons {
   color: #ff9442;
   margin: 3rem 2rem 3rem 0;
   font-size: 2rem;
 }
-.groupoficons{
+
+.groupoficons {
   padding-left: 10rem;
 }
-.endthisall{
+
+.endthisall {
   font-size: 0.8rem;
   padding-left: 10rem;
 }
-.email:hover{
+
+.email:hover {
   color: #56a8f0;
 }
 
 /* Viewall.html */
-.viewallsoon{
+.viewallsoon {
   font-size: 500%;
   font-weight: 800;
 }
-.divee1{
+
+.divee1 {
   margin: 10rem;
 }
 
 /* Resume page */
-.resumesoon{
+.resumesoon {
   font-size: 400%;
   font-weight: 800;
   line-height: 6rem;
@@ -476,117 +495,145 @@ padding: 0 11rem 0 10rem;
 
 /* Media Queries */
 @media (max-width : 1300px) {
-.myphoto{
-  right: 5rem;
-  top: 10rem;
-  height: 30rem;
-  width: auto;
-}
-.bordertophoto{
-  right: 8rem;
-  height: 35rem;
-  width: 20rem;
-}
-.lowerbox{
-  width: 40rem;
-}
-.secondpage{
-  padding: 4rem 0;
-}
-.myskills{
-  font-size: 5rem;
-}
-.skilltable{
-  right: 15rem;
-}
-.outer {
-  width: 30rem;
-}
-.upperrow{
-  visibility: hidden;
-}
-.lowerrow{
-  visibility: hidden;
-}
-.testicard{
-  padding: 2rem 1rem;
-}
-.secondsection{
-  padding: 2rem 7rem;
-}
-.contacttext{
-padding: 0 10rem;
-}
+  .myphoto {
+    right: 5rem;
+    top: 10rem;
+    height: 30rem;
+    width: auto;
+  }
+
+  .bordertophoto {
+    right: 8rem;
+    height: 35rem;
+    width: 20rem;
+  }
+
+  .lowerbox {
+    width: 40rem;
+  }
+
+  .secondpage {
+    padding: 4rem 0;
+  }
+
+  .myskills {
+    font-size: 5rem;
+  }
+
+  .skilltable {
+    right: 15rem;
+  }
+
+  .outer {
+    width: 30rem;
+  }
+
+  .upperrow {
+    visibility: hidden;
+  }
+
+  .lowerrow {
+    visibility: hidden;
+  }
+
+  .testicard {
+    padding: 2rem 1rem;
+  }
+
+  .secondsection {
+    padding: 2rem 7rem;
+  }
+
+  .contacttext {
+    padding: 0 10rem;
+  }
 }
 
 @media (max-width:1100px) {
-  .myphoto{
+  .myphoto {
     position: absolute;
     right: -8rem;
     top: 10rem;
     height: 30rem;
     width: auto;
   }
-  .bordertophoto{
+
+  .bordertophoto {
     right: -6rem;
     height: 35rem;
     width: 20rem;
   }
+
   .secondpage {
     height: 33rem;
   }
-  .myintro{
+
+  .myintro {
     text-align: left;
     padding-left: 10rem;
   }
-  .aboutme{
+
+  .aboutme {
     text-align: left;
     padding-left: 10rem;
   }
-  .myskills{
+
+  .myskills {
     padding-left: 0;
     text-align: center;
     font-size: 4rem;
   }
-  .abouttext{
+
+  .abouttext {
     text-align: left;
     padding: 0 0 0 10rem;
   }
-  .interests{
+
+  .interests {
     text-align: left;
     padding-left: 10rem;
   }
-  .recentw{
+
+  .recentw {
     text-align: center;
   }
-  .interesticon{
+
+  .interesticon {
     padding-left: 10rem;
     text-align: left;
   }
-  .upperbox{
+
+  .upperbox {
     visibility: hidden;
   }
-  .lowerbox{
+
+  .lowerbox {
     visibility: hidden;
   }
-  .portfolio{
+
+  .portfolio {
     margin: 4rem 5rem 0rem 5rem;
   }
-  .contribute{
+
+  .contribute {
     padding: 5rem 10rem 1.5rem 10rem;
   }
-  .clientsays{
+
+  .clientsays {
     text-align: center;
     font-size: 4rem;
     padding-left: 0;
   }
-  .secondsection{
+
+  .secondsection {
     padding: 2rem 0rem;
   }
-  .testicard{
+
+  .testicard {
     padding: 1rem 1rem;
   }
-  .contacttext{
-  padding: 0 5rem 0 10rem;
+
+  .contacttext {
+    padding: 0 5rem 0 10rem;
   }
 }
